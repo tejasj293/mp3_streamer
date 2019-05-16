@@ -1,1 +1,34 @@
-Signup
+<% include partials/header %>
+
+<body>
+    <% include partials/navbar %>
+    
+    <div class="loginForm">
+        <h4><i class="fas fa-music"></i> MP3 Streamer</h4>
+        
+        <hr>
+        
+        <form method="" action="">
+            <div class="form-group">
+                <label for="username">Full Name</label>
+                <input class="form-control" name="username" type="text" placeholder="Enter your full name">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input class="form-control" name="email" type="email" placeholder="Enter email">
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input class="form-control" name="password" type="password" placeholder="Password">
+            </div>
+            
+            <button class="btn btn-lg" type="submit">SIGN UP</button>
+        </form>
+        
+        <hr class="or">
+        
+    </div>
+
+<% include partials/footer %>
