@@ -24,6 +24,12 @@ app.get("/signup", function(req, res) {
     res.render("signup");
 });
 
+// ============================== ALBUM ROUTES =================================
+
+app.get("/browse/album", function(req, res) {
+    res.render("album/show");
+});
+
 // ====================== SERVER CONFIG ========================================
 
 app.listen(process.env.PORT, process.env.IP, function () {

@@ -174,3 +174,61 @@ a, a:hover, a:focus {
     background-color: #090909;
     width: 200px;
 }
+
+.card {
+    background-color: inherit;
+    color: white;
+    border-color: #202020;
+    text-align: center;
+}
+
+.card .btn {
+    background-color: #1e5b0e;
+    border-color: white;
+    border-radius: 25px;
+    width: 40%;
+    transition: all 0.7s;
+}
+
+.card .btn:hover {
+    width: 50%;
+    background-color: #0d3303;
+    border-color: white;
+}
+
+.card .card-title {
+    font-size: medium;
+}
+
+.album-head {
+    text-align: left;
+    border: none;
+}
+
+.album-head .card-title {
+    font-size: 2.3em;
+}
+
+.album-head img {
+    border: 1px solid #202020;
+}
+
+.song-list {
+    color: white;
+    background-color: #202020;
+    border-radius: 10px;
+}
+
+.song-list th {
+    border-color: #464646;
+    color: #777777;
+}
+
+.song-list td {
+    border-color: #464646;
+}
+
+.song-row:hover {
+    color: #51c532;
+    background-color: #313131;
+}
