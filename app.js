@@ -30,6 +30,10 @@ app.get("/browse/album", function(req, res) {
     res.render("album/show");
 });
 
+app.get("/browse/album/song/id", function(req, res) {
+    res.render("album/song");
+});
+
 // ====================== SERVER CONFIG ========================================
 
 app.listen(process.env.PORT, process.env.IP, function () {
